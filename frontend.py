@@ -209,10 +209,10 @@ with st.sidebar:
         medical_history     = st.text_area("Chronic Conditions", placeholder="e.g., Diabetes...", height=70)
         current_medications = st.text_area("Current Medications", placeholder="e.g., Metformin 500mg...", height=70)
         allergies           = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin...", height=100)
-        family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=100)
+        family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=70)
 
-        allergies           = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin...", height=60)
-        family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=60)
+        allergies           = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin...", height=70)
+        family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=70)
 
 
     with st.expander("🧬 Lifestyle"):
@@ -503,8 +503,8 @@ with tab_patients:
 
             med_hist_pt   = st.text_area("Medical History / Chronic Conditions", placeholder="e.g., Diabetes, Hypertension...", height=70)
             curr_meds_pt  = st.text_area("Current Medications", placeholder="e.g., Metformin 500mg...", height=70)
-            allergies_f   = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin, NSAIDs...", height=60)
-            fam_hist_pt   = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=60)
+            allergies_f   = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin, NSAIDs...", height=70)
+            fam_hist_pt   = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=70)
 
             submitted = st.form_submit_button("✅ Register Patient", type="primary", use_container_width=True)
             if submitted:
