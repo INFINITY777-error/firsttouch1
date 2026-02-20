@@ -208,13 +208,12 @@ with st.sidebar:
     with st.expander("🏥 Medical History"):
         medical_history     = st.text_area("Chronic Conditions", placeholder="e.g., Diabetes...", height=70)
         current_medications = st.text_area("Current Medications", placeholder="e.g., Metformin 500mg...", height=70)
-<<<<<<< HEAD
         allergies           = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin...", height=100)
         family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=100)
-=======
+
         allergies           = st.text_area("⚠️ Known Allergies", placeholder="e.g., Penicillin...", height=60)
         family_history      = st.text_area("Family History", placeholder="e.g., Father — Heart disease...", height=60)
->>>>>>> 538e32a97e76771e475982fd7138b67f0b94a2ad
+
 
     with st.expander("🧬 Lifestyle"):
         smoking_status = st.selectbox("Smoking Status", ["", "Non-smoker", "Ex-smoker", "Light smoker", "Heavy smoker"])
